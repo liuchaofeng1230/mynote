@@ -1,0 +1,20 @@
+{
+  "name": "note-client",
+  "version": "0.0.1",
+  "description": "note client for ourselves",
+  "main": "index.html",
+  "scripts": {
+    "watch": "./bin/watch.js"
+  },
+  "keywords": [
+    "note",
+    "node-webkit"
+  ],
+  "author": "远峰 闻鹤",
+  "license": "MIT",
+  "devDependencies": {
+    "less": "^2.6.1",
+    "lodash": "^4.6.1",
+    "sqlite3": "^3.1.2"
+  }
+}
