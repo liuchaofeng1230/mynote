@@ -8,7 +8,7 @@
 
 [github地址](https://github.com/nwjs/nw.js)
 
-1. 下载NW.js开发版
+1.下载NW.js开发版
 
 [nwjs0.13.0开发版](http://dl.nwjs.io/v0.13.0/nwjs-sdk-v0.13.0-osx-x64.zip)
 
@@ -19,19 +19,19 @@ cd mynote;
 
 打开nwjs界面，输入⌘+⌥+i打开调试界面
 
-2. 下载nodejs依赖包
+2.下载nodejs依赖包
 
 ```
 npm --registry http://registry.cnpmjs.org install
 ```
 
-3. 安装sqlite3命令行工具
+3.安装sqlite3命令行工具
 
 ```
 npm --registry http://registry.cnpmjs.org install sqlite3 -g
 ```
 
-4. 使用命令行操作sqlite数据库
+4.使用命令行操作sqlite数据库
 ```
 sqlite3 ./db/test.db
 
@@ -39,7 +39,7 @@ sqlite3 ./db/test.db
 其他命令输入.help查看
 ```
 
-5. css
+5.css
 
 ```
 node ./bin/watch.js
